@@ -11,7 +11,7 @@ Before you could jump into coding there are some tasks which needs to be perform
 Before you could use this template, make sure to replace all placeholder in this project.
 This can be simple done with "Replace in files" or something similar.
 
-Tipp: You should also make sure to create the project as experimental project in [Curse Forge][curse_forge] to avoid any delays or naming issues later.
+Tip: You should also make sure to create the project as experimental project in [Curse Forge][curse_forge] to avoid any delays or naming issues later.
 
 #### General Placeholders
 
