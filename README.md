@@ -20,7 +20,8 @@ Tip: You should also make sure to create the project as experimental project in 
 - [ ] `[[ --Mod Name-- ]]` with the Mod Name e.g. My First Mod
 - [ ] `[[ --Mod License-- ]]` with the Mod License e.g. MIT
 - [ ] `[[ --Mod Description-- ]]` with the Mod description.
-- [ ] `[[ --Mod ClassName-- ]]` with our Mod Class path e.g. de.markusbordihn.myfirstmod
+- [ ] `[[ --Mod ClassName-- ]]` with your mod main class name e.g. MyFirstMod
+- [ ] `[[ --Mod Namespace-- ]]` with your mod namespace e.g. de.markusbordihn.myfirstmod
 - [ ] `[[ --Vendor Name-- ]]` with the Vendor name e.g. markusbordihn
 
 #### Curse Forge Placeholders
