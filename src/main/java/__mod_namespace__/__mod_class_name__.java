@@ -1,5 +1,7 @@
 package [[ --Mod Namespace-- ]];
 
+import org.apache.commons.lang3.tuple.Pair;
+
 import net.minecraftforge.fml.ExtensionPoint;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;

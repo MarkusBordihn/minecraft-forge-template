@@ -1,6 +1,12 @@
 # 📄 Minecraft Forge Template
 
-This template could be used as a base line for the forge mod development with [Visual Studio Code][visual_studio_code] and [Gradle][gradle].
+This template could be used as a base line for the [Forge][minecraft_forge] mod development with [Visual Studio Code][visual_studio_code] and [Gradle][gradle].
+
+## MinecraftForge / Forge Mod Loader (FML)
+
+Forge is a free, open-source modding API to the Minecraft base files to assist in compatibility between mods.
+
+Please take a look at the [fml folder](fml/) or [MinecraftForge][minecraft_forge] for additional information.
 
 ## Preparation
 
@@ -100,7 +106,12 @@ You should store your curseforge_api_token only over grandle and never in the gr
 
 Please take a look at the [Forge Docs][forge_docs] to get an full overview of the Forge API.
 
+## Disclaimer
+
+NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.
+
 [curse_forge]: https://www.curseforge.com/
 [forge_docs]: https://mcforge.readthedocs.io/en/latest/
 [gradle]: https://docs.gradle.org/
+[minecraft_forge]: https://github.com/MinecraftForge/MinecraftForge
 [visual_studio_code]: https://code.visualstudio.com/
