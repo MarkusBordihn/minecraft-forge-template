@@ -1,4 +1,4 @@
-# 📄 Minecraft Forge Template
+# 📄 Minecraft Forge Template 1.17.1
 
 This template could be used as a base line for the [Forge][minecraft_forge] mod development with [Visual Studio Code][visual_studio_code] and [Gradle][gradle].
 
