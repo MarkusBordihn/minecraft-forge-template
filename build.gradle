@@ -21,7 +21,9 @@ apply plugin: 'maven-publish'
 
 version = "${version_major}.${version_minor}.${version_patch}"
 archivesBaseName = "${mod_id}_${mc_version}"
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+// Mojang ships Java 16 to end users in 1.17+ instead of Java 8 in 1.16 or lower, so your mod should target Java 16.
+java.toolchain.languageVersion = JavaLanguageVersion.of(16)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
@@ -172,7 +174,7 @@ curseforge {
     id = "${curseforge_project_id}"
     changelog = '[[ --Change Log-- ]]'
     releaseType = 'release'
-    addGameVersion("1.16.5")
+    addGameVersion("1.17.1")
     addGameVersion("Forge")
   }
 }

@@ -18,6 +18,9 @@ build
 .gradle
 *local.properties
 
+# NodeJs
+node_modules
+
 # other
 *.clip
 eclipse
