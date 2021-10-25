@@ -1,10 +1,13 @@
 package [[ --Mod Namespace-- ]].item;
 
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import [[ --Mod Namespace-- ]].Constants;
+import [[ --packageNamespace-- ]].Constants;
+import [[ --packageNamespace-- ]].Annotations.TemplateEntryPoint;
 
 public class ModItems {
 
@@ -12,8 +15,9 @@ public class ModItems {
 
   }
 
-  public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
+  public static final DeferredRegister<Item> ITEMS =
+      DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
 
-  // Register Items
+  @TemplateEntryPoint("Register Items")
 
 }

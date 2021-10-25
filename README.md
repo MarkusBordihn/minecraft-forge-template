@@ -22,18 +22,23 @@ Tip: You should also make sure to create the project as experimental project in 
 #### General Placeholders
 
 - [ ] `[[ --Author-- ]]` with the Author name e.g. Markus Bordihn
-- [ ] `[[ --Mod Id-- ]]` with the Mod Id e.g. my_first_mod
-- [ ] `[[ --Mod Name-- ]]` with the Mod Name e.g. My First Mod
-- [ ] `[[ --Mod License-- ]]` with the Mod License e.g. MIT
-- [ ] `[[ --Mod Description-- ]]` with the Mod description.
-- [ ] `[[ --Mod ClassName-- ]]` with your mod main class name e.g. MyFirstMod
-- [ ] `[[ --Mod Namespace-- ]]` with your mod namespace e.g. de.markusbordihn.myfirstmod
-- [ ] `[[ --Vendor Name-- ]]` with the Vendor name e.g. markusbordihn
+- [ ] `[[ --ModId-- ]]` with the Mod Id e.g. my_first_mod
+- [ ] `[[ --ModName-- ]]` with the Mod Name e.g. My First Mod
+- [ ] `[[ --ModLicense-- ]]` with the Mod License e.g. MIT
+- [ ] `[[ --ModDescription-- ]]` with the Mod description.
+- [ ] `[[ --ModClassName-- ]]` with your mod main class name e.g. MyFirstMod
+- [ ] `[[ --packageNamespace-- ]]` with your mod namespace e.g. de.markusbordihn.myfirstmod
+- [ ] `[[ --VendorName-- ]]` with the Vendor name e.g. markusbordihn
 
 #### Curse Forge Placeholders
 
 - [ ] `[[ --Curse Forge Project Id-- ]]` with your Curse Forge project id.
 - [ ] `[[ --Change Log-- ]]` with the changelog like: See http://....
+
+#### Item Template Placeholders
+- [ ] `[[ --ITEM_NAME-- ]]` Variable safe item name (upper_case) e.g. MY_ITEM
+- [ ] `[[ --item_name-- ]]` Variable safe item name (lower_case) e.g. my_item
+- [ ] `[[ --CreativeTab-- ]]` Item creative tab e.g. TAB_MISC
 
 ### 💾 Install recommended extensions for Visual Studio Code
 

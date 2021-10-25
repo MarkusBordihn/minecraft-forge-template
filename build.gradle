@@ -54,7 +54,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                [[ --Mod Id-- ]] {
+                [[ --ModId-- ]] {
                     source sourceSets.main
                 }
             }
@@ -74,7 +74,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                [[ --Mod Id-- ]] {
+                [[ --ModId-- ]] {
                     source sourceSets.main
                 }
             }
@@ -97,7 +97,7 @@ minecraft {
             args '--mod', '[[ --Mod Id-- ]]', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                [[ --Mod Id-- ]] {
+                [[ --ModId-- ]] {
                     source sourceSets.main
                 }
             }

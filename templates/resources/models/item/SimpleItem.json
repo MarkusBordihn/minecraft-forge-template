@@ -1,0 +1,8 @@
++++ assets/[[ --ModId-- ]]/models/item/[[ --ModId-- ]].json
+@@@ create @@@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "[[ --ModId-- ]]:item/[[ --item_name-- ]]"
+  }
+}
