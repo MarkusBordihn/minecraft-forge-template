@@ -1,4 +1,4 @@
-+++ assets/[[ --ModId-- ]]/models/item/[[ --ModId-- ]].json
++++ models/item/[[ --ModId-- ]].json
 @@@ create @@@
 {
   "parent": "item/generated",
