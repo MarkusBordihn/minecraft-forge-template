@@ -1,4 +1,4 @@
-+++ models/item/[[ --ModId-- ]].json
++++ models/item/[[ --item_name-- ]].json
 @@@ create @@@
 {
   "parent": "item/generated",
@@ -6,3 +6,10 @@
     "layer0": "[[ --ModId-- ]]:item/[[ --item_name-- ]]"
   }
 }
+
++++ textures/item/[[ --item_name-- ]].png
+@@@ copy:/resources/textures/item/SimpleItem.png @@@
+
++++ lang/en_US.json
+@@@ before:"item.placeholder.text" @@@
+  "item.[[ --ModId-- ]].[[ --item_name-- ]]": "[[ --ItemName-- ]]",
