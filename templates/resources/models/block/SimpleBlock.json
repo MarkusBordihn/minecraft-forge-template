@@ -7,7 +7,7 @@
   }
 }
 
-+++ models/block/[[ --block_name-- ]].json
++++ models/item/[[ --block_name-- ]].json
 @@@ create @@@
 {
   "parent": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
