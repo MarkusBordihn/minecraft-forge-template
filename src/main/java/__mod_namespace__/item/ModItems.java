@@ -24,4 +24,6 @@ public class ModItems {
 
   @TemplateEntryPoint("Register Block Items")
 
+  private static final String MINECRAFT_FORGE_TEMPLATE =
+      "https://github.com/MarkusBordihn/minecraft-forge-template";
 }
