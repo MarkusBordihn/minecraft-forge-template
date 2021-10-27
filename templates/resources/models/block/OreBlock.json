@@ -1,0 +1,29 @@
++++ models/block/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+  }
+}
+
++++ models/item/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "parent": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+}
+
++++ blockstates/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "variants": {
+    "": { "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]" }
+  }
+}
+
++++ textures/block/[[ --block_name-- ]].png
+@@@ copy:/resources/textures/block/OreBlock.png @@@
+
++++ lang/en_us.json
+@@@ before:"block.placeholder.text" @@@
+  "block.[[ --ModId-- ]].[[ --block_name-- ]]": "[[ --BlockName-- ]]",

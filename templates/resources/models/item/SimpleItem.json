@@ -10,6 +10,6 @@
 +++ textures/item/[[ --item_name-- ]].png
 @@@ copy:/resources/textures/item/SimpleItem.png @@@
 
-+++ lang/en_US.json
++++ lang/en_us.json
 @@@ before:"item.placeholder.text" @@@
   "item.[[ --ModId-- ]].[[ --item_name-- ]]": "[[ --ItemName-- ]]",
