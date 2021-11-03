@@ -1,3 +1,11 @@
++++ blockstates/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "variants": {
+    "": { "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]" }
+  }
+}
+
 +++ models/block/[[ --block_name-- ]].json
 @@@ create @@@
 {
@@ -11,14 +19,6 @@
 @@@ create @@@
 {
   "parent": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
-}
-
-+++ blockstates/[[ --block_name-- ]].json
-@@@ create @@@
-{
-  "variants": {
-    "": { "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]" }
-  }
 }
 
 +++ textures/block/[[ --block_name-- ]].png

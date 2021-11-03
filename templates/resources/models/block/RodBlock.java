@@ -1,0 +1,81 @@
++++ blockstates/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "variants": {
+    "facing=down": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+    },
+    "facing=west": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
+
++++ lang/en_us.json
+@@@ before:"block.placeholder.text" @@@
+  "block.[[ --ModId-- ]].[[ --block_name-- ]]": "[[ --BlockName-- ]]",
+
++++ models/block/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "texture_size": [32, 32],
+  "textures": {
+    "texture": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+    "particle": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+  },
+  "elements": [
+    {
+      "name": "rod",
+      "from": [7, 0, 7],
+      "to": [9, 16, 9],
+      "faces": {
+        "north": { "uv": [1, 1, 2, 9], "texture": "#texture" },
+        "east": { "uv": [0, 1, 1, 9], "texture": "#texture" },
+        "south": { "uv": [3, 1, 4, 9], "texture": "#texture" },
+        "west": { "uv": [2, 1, 3, 9], "texture": "#texture" },
+        "up": { "uv": [2, 1, 1, 0], "texture": "#texture", "cullface": "up" },
+        "down": { "uv": [3, 0, 2, 1], "texture": "#texture" }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "head": {
+      "rotation": [-60, 0, 0],
+      "translation": [0, 5, -9]
+    }
+  }
+}
+
++++ models/item/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "parent": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+}
+
++++ textures/block/[[ --block_name-- ]].png
+@@@ copy:/resources/textures/block/RodBlock.png @@@

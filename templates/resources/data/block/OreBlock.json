@@ -1,0 +1,36 @@
++++ [[ --ModId-- ]]/loot_tables/blocks/[[ --block_name-- ]].json
+@@@ create @@@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            }
+          ],
+          "name": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
+
++++ minecraft/tags/blocks/mineable/pickaxe.json
+@@@ after:"\"values\":  [" @@@
+    "[[ --ModId-- ]]:[[ --block_name-- ]]",
+
++++ minecraft/tags/blocks/needs_iron_tool.json
+@@@ after:"\"values\":  [" @@@
+    "[[ --ModId-- ]]:[[ --block_name-- ]]",
