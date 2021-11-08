@@ -15,7 +15,7 @@
               "source": "block_entity"
             }
           ],
-          "name": "[[ --ModId-- ]]:block/[[ --block_name-- ]]"
+          "name": "[[ --ModId-- ]]:[[ --block_name-- ]]"
         }
       ],
       "conditions": [
