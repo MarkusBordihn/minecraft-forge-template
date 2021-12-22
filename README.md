@@ -1,4 +1,4 @@
-# 📄 Minecraft Forge Template 1.18
+# 📄 Minecraft Forge Template 1.18.1
 
 This template could be used as a base line for the [Forge][minecraft_forge] mod development with [Visual Studio Code][visual_studio_code] and [Gradle][gradle].
 
@@ -63,21 +63,21 @@ Example MyFirstMod.java:
 ```java
 package de.markusbordihn.myfirstmod;
 
-import org.apache.commons.lang3.tuple.Pair;
-
-import net.minecraftforge.fml.ExtensionPoint;
-import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.network.FMLNetworkConstants;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("my_first_mod")
 public class MyFirstMod {
 
   public MyFirstMod() {
-    // Make sure the mod being absent on the other network side does not cause the
-    // client to display the server as incompatible
-    ModLoadingContext.get().registerExtensionPoint(ExtensionPoint.DISPLAYTEST,
-        () -> Pair.of(() -> FMLNetworkConstants.IGNORESERVERONLY, (a, b) -> true));
+    final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+    // Register Blocks
+    ....BLOCKS.register(modEventBus);
+
+    // Register Items
+    ....ITEMS.register(modEventBus);
   }
 
 }
