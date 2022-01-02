@@ -30,9 +30,9 @@ public class ClientSetup {
 
     event.enqueueWork(() -> {
 
-      @TemplateEntryPoint("Register Item Properties")
+      //@TemplateEntryPoint("Register Item Properties")
 
-      @TemplateEntryPoint("Set Render Layer")
+      //@TemplateEntryPoint("Set Render Layer")
 
     });
   }
