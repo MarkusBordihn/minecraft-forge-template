@@ -17,7 +17,22 @@
 @@@ create @@@
 {
   "variants": {
-    "": { "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]" }
+    "facing=north": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "[[ --ModId-- ]]:block/[[ --block_name-- ]]",
+      "y": 270
+    }
   }
 }
 
