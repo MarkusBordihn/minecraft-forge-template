@@ -1,4 +1,4 @@
-# 📄 Minecraft Forge Template 1.18.1
+# 📄 Minecraft Forge Template 1.18.2
 
 This template could be used as a base line for the [Forge][minecraft_forge] mod development with [Visual Studio Code][visual_studio_code] and [Gradle][gradle].
 
@@ -36,6 +36,7 @@ Tip: You should also make sure to create the project as experimental project in 
 - [ ] `[[ --Change Log-- ]]` with the changelog like: See http://....
 
 #### Item Template Placeholders
+
 - [ ] `[[ --ITEM_NAME-- ]]` Variable safe item name (upper_case) e.g. MY_ITEM
 - [ ] `[[ --item_name-- ]]` Variable safe item name (lower_case) e.g. my_item
 - [ ] `[[ --CreativeTab-- ]]` Item creative tab e.g. TAB_MISC
