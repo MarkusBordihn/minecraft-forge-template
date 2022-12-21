@@ -4,13 +4,13 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
-import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
+import [[ --packageNamespace-- ]].Annotations.TemplateEntryPoint;
 import [[ --packageNamespace-- ]].Constants;
 import [[ --packageNamespace-- ]].block.ModBlocks;
-import [[ --packageNamespace-- ]].Annotations.TemplateEntryPoint;
 
 public class ModItems {
 
